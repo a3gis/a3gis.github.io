@@ -3,7 +3,7 @@ layout: post
 title: Generalised Distributive Law
 ---
 
-A very short entry on a little theorem I stumbled upon the other day. Let $F$ be a field, and $X$ and $Y$ be finite indexing sets for some arbitrary map $a : X \times Y \to F$. Then
+A very short entry on a little theorem I stumbled upon the other day. Let $R$ be a ring, and $X$ and $Y$ be finite indexing sets for some arbitrary map $a : X \times Y \to R$. Then
 
 $$
   \prod_{x \in X} \sum_{y \in Y} a(x,y)
