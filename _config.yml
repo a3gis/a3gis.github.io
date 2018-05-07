@@ -21,4 +21,5 @@ markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
+  math_engine: nil
 highlighter: rouge

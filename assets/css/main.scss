@@ -7,9 +7,13 @@
 body {
     color: $color-primary;
     background: $color-background;
-    font-family: 'Inconsolata', ;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /*font-family: 'Inconsolata', ;*/
     font-size: 100%;
     font-weight: 400;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Playfair Display', serif;
 }
 h1 {
     margin-bottom: 5px;
@@ -47,7 +51,7 @@ ul {
 
 
 .wrapper {
-    max-width: 600px;
+    max-width: 800px;
     margin: auto;
     padding: 60px 30px 60px 30px;
     @media screen and (max-width: $br) {
@@ -93,7 +97,7 @@ ul {
     padding-bottom: 30px;
     h1 {
         font-size: 1.4em;
-        margin-bottom: 5px;
+        margin-bottom: 24px;
     }
 }
 
@@ -103,16 +107,14 @@ ul {
     &__title {
         font-size: 1.6em;
         font-weight: 700;
-        text-decoration: underline;
-        margin-top: 20px;
-        margin-bottom: 5px;
+        margin-top: 32px;
     }
     &__date {
         font-size: 1em;
-        font-style: italic;
+        margin-bottom: 20px;
+        font-family: 'Playfair Display', serif;
     }
     &__content {
-        padding-top: 40px;
         h1 {
             font-size: 1.2em;
             font-weight: 700;
